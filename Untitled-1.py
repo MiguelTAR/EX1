@@ -46,5 +46,7 @@ for value in range(1,16):
   #print("{}: {} {} ".format(str(value), myfizzbuzz, mychicken))
   display_output(mychicken, myfizzbuzz)
 
-  # Checked the code / all clear
-  # - FIzzBUZZZzz
+
+  # Checked the code / all clear #wcober
+  # - FIzzBUZZZ
+
