@@ -40,11 +40,13 @@ def display_output(mychicken, myfizzbuzz):
   print("{}: {}{} ".format(str(value), myfizzbuzz, buzzandchicken, mychicken))
   
        
-for value in range(1,16):
-  myfizzbuzz = fizzbuzz(value)
-  mychicken = chicken(value)
+for valuex in range(1,16):
+  myfizzbuzzx = fizzbuzz(valuex)
+  mychickenz = chicken(valuex)
   #print("{}: {} {} ".format(str(value), myfizzbuzz, mychicken))
-  display_output(mychicken, myfizzbuzz)
+  display_output(mychickenz, myfizzbuzzx)
+
 
   # Checked the code / all clear #wcober
   # - FIzzBUZZZ
+
