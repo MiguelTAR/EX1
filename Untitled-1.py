@@ -47,4 +47,4 @@ for value in range(1,16):
   display_output(mychicken, myfizzbuzz)
 
   # Checked the code / all clear #wcober
-  # - Jaspreet Masuta
+  # - FIzzBUZZZ
