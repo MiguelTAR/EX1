@@ -19,11 +19,11 @@ def fizzbuzz(value):
       fizzbuzz = "b"
     return fizzbuzz
 
-def display_output(mychicken, myfizzbuzz):
-  if (mychicken):
-    mychicken = 'Big fat chicken'
+def display_output(ourchicken, myfizzbuzz):
+  if (ourchicken):
+    ourchicken = 'Big fat chicken'
   else:
-    mychicken = ''
+    ourchicken = ''
   if (myfizzbuzz == 'f'):
     myfizzbuzz = "I have the fizz"
   if (myfizzbuzz == "b"):
@@ -32,19 +32,19 @@ def display_output(mychicken, myfizzbuzz):
     myfizzbuzz = 'I really like the fizz and the buzz'
     
   buzzandchicken = '' 
-  if (mychicken and myfizzbuzz) :
+  if (ourchicken and myfizzbuzz) :
    buzzandchicken = ", and"
      
     
     
-  print("{}: {}{} ".format(str(value), myfizzbuzz, buzzandchicken, mychicken))
+  print("{}: {}{} ".format(str(value), myfizzbuzz, buzzandchicken, ourchicken))
   
        
 for value in range(1,16):
   myfizzbuzz = fizzbuzz(value)
-  mychicken = chicken(value)
+  ourchicken = chicken(value)
   #print("{}: {} {} ".format(str(value), myfizzbuzz, mychicken))
-  display_output(mychicken, myfizzbuzz)
+  display_output(ourchicken, myfizzbuzz)
 
   # Checked the code / all clear #wcober
   # - FIzzBUZZZ
