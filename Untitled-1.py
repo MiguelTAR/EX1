@@ -1,4 +1,4 @@
-
+#New code at beginning of file #wcober
 def chicken(value):
   chicken = 0
   if (value % 10 == 0):
